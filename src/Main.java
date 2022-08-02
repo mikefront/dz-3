@@ -9,5 +9,18 @@ public class Main {
         } else {
             System.out.println(" ОС не найдена ");
             System.out.println(" коммит и пуш");
+
+           // Задание2
+        int clientOs = 0;
+        int year = 2015;
+        if ( clientOs == 0 && year > 2019 ) {
+            System.out.println(" Установите обычную версию Андроид ");
+        } else if ( clientOs == 0 && year < 2019 ){
+        System.out.println(" Установите Lite версию Андроид ");
+        } else if ( clientOs == 1 && clientOs < 2019){
+        System.out.println(" Установите обычную версию IOS ");
+        } else if ( clientOs == 1 && clientOs < 2019){
+        System.out.println("Установите Lite версию IOS");
+        } else {
+            System.out.println(" Ваще устройство не поддержиается ");
         }
-    }
