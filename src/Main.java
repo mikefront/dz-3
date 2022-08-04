@@ -3,11 +3,11 @@ public class Main {
 
 
         // Задание1
-        int clientOs = 0;
-        if (clientOs == 1) {
-            System.out.println(" у вас IOS ");
+        int clientOs = 1;
+        if (clientOs == 0) {
+            System.out.println("У вас IOS ");
         } else if (clientOs == 1) {
-            System.out.println(" у вас Андроид ");
+            System.out.println("У вас Андроид ");
         } else {
             System.out.println(" ОС не найдена ");
 
