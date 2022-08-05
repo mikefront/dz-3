@@ -11,4 +11,10 @@ public class Main {
         } else {
             System.out.println(" ОС не найдена ");
         }
-    }}
+
+        // Задание 2
+
+
+
+        }
+    }
