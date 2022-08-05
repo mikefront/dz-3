@@ -12,26 +12,18 @@ public class Main {
             System.out.println(" ОС не найдена ");
 
             // Задание2
-            int clientDeviceYear = 2022;
+            int clientDeviceYear = 2017;
             if (clientDeviceYear == 0 && clientDeviceYear > 2015) {
-                System.out.println("Установите обычную версию iOS ");
-            } else if (clientDeviceYear == 0 && clientDeviceYear > 2018) {
-                System.out.println("Установите Lite версию IOS ");
+                System.out.println("Установите обычную версию для iOS по ссылке ");
+            } else if (clientDeviceYear == 0 && clientDeviceYear < 2015) {
+                System.out.println("Установите облегченную версию версию для IOS по ссылке ");
             } else if (clientDeviceYear == 1 && clientDeviceYear > 2015) {
-                System.out.println("Установите обычную версию Андроид ");
-            } else if (clientDeviceYear == 1 && clientDeviceYear > 2018) {
-                System.out.println("Установите Lite версию Андроид ");
+                System.out.println("Установите обычную версию для Андроид по ссылке");
+            } else if (clientDeviceYear == 1 && clientDeviceYear < 2015) {
+                System.out.println("Установите облегченную версию для Андроид по ссылке ");
             } else {
                 System.out.println("Ваще устройство не поддержиается ");
-
-                // Задание3
-                int year = 2023;
-                if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-                    System.out.printf("Год %s високосный ", year);
-                } else {
-                    System.out.printf("Год %s не високосный ", year);
                 }
             }
         }
     }
-}
