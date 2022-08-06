@@ -13,5 +13,15 @@ public class Main {
         }
 
         // Задание2
+        int clientDeviceYear = 2022;
+        if (clientOs == 0 && clientDeviceYear > 2015) {
+            System.out.println("Установите обычную версию для iOS по ссылке ");
+        } else if (clientOs == 0 && clientDeviceYear < 2015) {
+            System.out.println("Установите облегченную версию версию для IOS по ссылке ");
+        } else if (clientOs == 1 && clientDeviceYear > 2015) {
+            System.out.println("Установите обычную версию для Андроид по ссылке");
+        } else if (clientOs == 1 && clientDeviceYear < 2015) {
+            System.out.println("Установите облегченную версию для Андроид по ссылке ");
+        }
     }
 }
