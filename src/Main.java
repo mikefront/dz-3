@@ -23,5 +23,14 @@ public class Main {
         } else if (clientOs == 1 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию для Андроид по ссылке ");
         }
+
+        // Задание3
+        int year = 2021;
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+        System.out.println(year + "Год високосный");
+        } else {
+            System.out.println(year + "год не високосный");
+        }
+
     }
 }
