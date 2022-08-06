@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println("Hello world");
 
         // Задание1
         int clientOs = 1;
@@ -27,7 +27,7 @@ public class Main {
         // Задание3
         int year = 2021;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-        System.out.println(year + "Год високосный");
+            System.out.println(year + "Год високосный");
         } else {
             System.out.println(year + "год не високосный");
         }
