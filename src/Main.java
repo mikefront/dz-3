@@ -31,6 +31,16 @@ public class Main {
         } else {
             System.out.println(year + "год не високосный");
         }
+        // Задание4
+        int deliveryDistance = 95;
+        int kilometreLimit = 20;
+        int deliveryDays = 1;
+        int kilometers = 40;
+        if (deliveryDistance <= kilometreLimit) {
+        } else {
+            deliveryDays = ((deliveryDistance - kilometreLimit) / kilometers) + deliveryDays;
+        }
+        System.out.println("Доставка дней" + deliveryDays);
+        }
 
     }
-}
